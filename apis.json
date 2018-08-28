@@ -1,0 +1,261 @@
+{
+	"name": "Streadata.io API Gallery - Exchange",
+	"description": "This is a repository of exchange APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/exchange.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://exchange.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Stripe",
+			"x-api-slug": "stripe",
+			"description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes, including fraud prevention, and subscription management. Use Stripes payment platform to accept and process p...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg",
+			"humanURL": "https://stripe.com/",
+			"baseURL": "https://api.stripe.com/v1/",
+			"tags": "Exchange",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/stripe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Exchange",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "StrikeIron",
+			"x-api-slug": "strikeiron",
+			"description": "StrikeIron is the leader in Data-as-a-Service (DaaS), delivering data quality and communications solutions via our cloud platform IronCloud. We provide address verification, email verification, phone validation, phone append, SMS text messaging, and sales tax solutions to customers in a variety of markets. Our solutions are delivered as Web services that can be easily integrated into any application or system. Additionally, our solutions are pre-integrated into leading platforms like: Salesforce.com, Magento, Informatica, Oracle CRM On-Demand, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/372-informatica.jpg",
+			"humanURL": "http://www.informatica.com",
+			"baseURL": "https:///",
+			"tags": "Exchange",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/strikeiron/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Get Exchange Rates",
+			"x-api-slug": "get-exchange-rates",
+			"description": "Use the Free Get Exchange Rates API to convert currencies in real-time and retrieve simple currency exchange rates in JSON format.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2017-12-26 at 8.55.01 PM.png",
+			"humanURL": "http://www.getexchangerates.com/api/",
+			"baseURL": "https:///",
+			"tags": "Exchange",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/get-exchange-rates/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Open Exchange Rates API",
+			"x-api-slug": "open-exchange-rates-api",
+			"description": "The original simple, accurate and transparent exchange rates and currency conversion data API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1347-.jpg",
+			"humanURL": "https://openexchangerates.org",
+			"baseURL": "https:///",
+			"tags": "Exchange",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/open-exchange-rates-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "New York Federal Reserve Foreign Exchange",
+			"x-api-slug": "new-york-federal-reserve-foreign-exchange",
+			"description": "The Federal Reserve Bank of New York plays a leadership role in monetary policy, financial supervision and the payments system.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1449-new-york-federal-reserve-foreign-exchange.jpg",
+			"humanURL": "http://www.newyorkfed.org",
+			"baseURL": "https:///",
+			"tags": "Exchange",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/new-york-federal-reserve-foreign-exchange/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2",
+			"x-api-slug": "aws-ec2",
+			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/",
+			"baseURL": ":///",
+			"tags": "Exchange",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/aws-ec2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Doubleclick",
+			"x-api-slug": "google-doubleclick",
+			"description": "The Ad Exchange Buyer REST API allows your Real-Time Bidding application to access and update account information and to submit creatives. The API also allows an application (whether it does static bidding or real-time bidding) to discover direct deals that sellers make available.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png",
+			"humanURL": "https://www.doubleclickbygoogle.com/",
+			"baseURL": "https:///",
+			"tags": "Exchange",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/google-doubleclick/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Exchange",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clover",
+			"x-api-slug": "clover",
+			"description": "Clover, a First Data company, builds the largest open-architecture point of sale solution aimed at small &amp; medium sized business owners. Our products are changing the consumer/merchant experience for the better, opening avenues for seamless customer-merchant interactions. There are five versions of Clover, including the Clover Station, Clover Mobile, Clover Mini, Clover Go, and Clover Flex. With Clover, First Data is aiming to create the largest open architecture operating system for commerce-enabling solutions and applications for business owners.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png",
+			"humanURL": "https://www.clover.com",
+			"baseURL": "https:///merchants/https://api.clover.com",
+			"tags": "Exchange",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/clover/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Flowroute",
+			"x-api-slug": "flowroute",
+			"description": "Flowroute is the leading provider of cloud-based communications and is based in Seattle, Washington.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28795-developer-flowroute-com.jpg",
+			"humanURL": "http://developer.flowroute.com",
+			"baseURL": "https:////",
+			"tags": "Exchange",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/flowroute/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CoinFabrik",
+			"x-api-slug": "coinfabrik",
+			"description": "Our smart contract development and full stack blockchain development services are supported by more than 20 years of experience building and reviewing secure applications. CoinFabrik is a full stack blockchain development company. Our expertise range from extending cryptocurrency nodes like Bitcoin and Ethereum to providing high level APIs and UIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png",
+			"humanURL": "https://www.coinfabrik.com",
+			"baseURL": "https://api.coinbase.com//v2",
+			"tags": "Exchange",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/coinfabrik/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Exchange",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Exchange",
+	"include": [
+		{
+			"name": "Stripe",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/stripe/apis.yaml"
+		},
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "StrikeIron",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/strikeiron/apis.yaml"
+		},
+		{
+			"name": "Get Exchange Rates",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/get-exchange-rates/apis.yaml"
+		},
+		{
+			"name": "Open Exchange Rates API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/open-exchange-rates-api/apis.yaml"
+		},
+		{
+			"name": "New York Federal Reserve Foreign Exchange",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/new-york-federal-reserve-foreign-exchange/apis.yaml"
+		},
+		{
+			"name": "AWS EC2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/aws-ec2/apis.yaml"
+		},
+		{
+			"name": "Google Doubleclick",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/google-doubleclick/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "Clover",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/clover/apis.yaml"
+		},
+		{
+			"name": "Flowroute",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/flowroute/apis.yaml"
+		},
+		{
+			"name": "CoinFabrik",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/coinfabrik/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}

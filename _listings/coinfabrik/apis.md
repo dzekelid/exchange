@@ -10,11 +10,25 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "970321"
 tags: Exchange
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/coinfabrik/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Coinbase API - Create address
+  x-api-slug: accountsaccount-idaddresses-post
+  description: "Creates a new address for an account. As all the arguments are optinal,
+    it\u2019s possible just to do a empty POST which will create a new address. This
+    is handy if you need to create new receive addresses for an account on-demand.\nAddresses
+    can be created for all account types. With fiat accounts, funds will be received
+    with Instant Exchange."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png
+  humanURL: https://www.coinfabrik.com
+  baseURL: https://api.coinbase.com//v2
+  tags: SaaS, Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/coinfabrik/accountsaccount-idaddresses-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://blog.coinfabrik.com/feed/

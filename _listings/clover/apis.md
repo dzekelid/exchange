@@ -12,11 +12,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "23096"
 tags: Exchange
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/clover/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: ' - Create or exchange a line item'
+  x-api-slug: v3merchantsmidordersorderidline-itemsoldlineitemidexchangelineitemid-post
+  description: Create or exchange a line item.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/clover/v3merchantsmidordersorderidline-itemsoldlineitemidexchangelineitemid-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://cloudflare.api.gallery.streamdata.io

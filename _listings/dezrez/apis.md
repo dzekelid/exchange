@@ -7,11 +7,31 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Exchange
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Dezrez.Rezi.Client.Api - Set the estimated exchange date on a purchasing role
+  x-api-slug: apiprogressionsalessetestimatedexchangedate-put
+  description: Set the estimated exchange date on a purchasing role.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/dezrez/apiprogressionsalessetestimatedexchangedate-put-openapi.md
+- name: Dezrez.Rezi.Client.Api - Exchanges a sales role
+  x-api-slug: apiprogressionsalesexchange-post
+  description: Exchanges a sales role.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchange/master/_listings/dezrez/apiprogressionsalesexchange-post-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez
